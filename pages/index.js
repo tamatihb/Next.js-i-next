@@ -2,7 +2,6 @@ import {Fragment} from 'react'
 // Components
 import Head from 'next/head';
 import Spa from './singlePageApp'
-import NewsApi from "../components/NewsApi";
 import Customers from './customers'
 import Footer from '../components/Footer'
 
@@ -15,10 +14,9 @@ export default function Home() {
         <link rel="icon" href="/Brackets.png" />
         </Head>
         <Spa/>
-        <NewsApi/>
         <Customers/>
         <Footer/>
-
+<p>Test</p>
         </Fragment>
     )
 

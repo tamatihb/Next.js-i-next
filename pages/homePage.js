@@ -37,10 +37,10 @@ function HomePage() {
 
 
 						<a
-							href="#"
+							href="#work"
 							className="font-semibold text-black md:mt-10  pt-5 bg-cyan-200 rounded-full w-60 h-16 text-lg hover:bg-cyan-300  "
 						>
-							See What We Do.
+							Latest News
 						</a>
 					</div>
 				</div>

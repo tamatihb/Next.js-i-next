@@ -22,7 +22,7 @@ const NewsApi = () => {
 
 return(
  
-<div className=" grid grid-cols-3 gap-4 mx-auto px-3  ">
+<div className=" grid grid-cols-3 gap-4 mx-auto px-3 h-autorounded-tr-extraLarge  ">
 {news.map(({title, description, url, urlToImage}) =>(
   <CardNews 
 
