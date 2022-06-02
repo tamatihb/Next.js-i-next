@@ -3,6 +3,7 @@ import Image from "next/image";
 import TechImage from "../public/images/TechHero.jpg";
 import { Element } from "react-scroll";
 
+
 function HomePage() {
 	return (
 		<Element id="home" name="home">
@@ -12,14 +13,14 @@ function HomePage() {
 						<Image
 							src={TechImage}
 							alt="TechImage"
-							objectFit="cover"
+							objectfit="cover"
 							className="-z-0 cover 	hidden md:block rounded-tl-extraLarge   "
 						
 						/>
 					</div>
 					<div className="flex flex-col md:ml-20 mx-10 mt-10">
 						<h1 className="font-bold text-7xl text-left mb-10 text-white">
-						 <span className="text-cyan-300">W</span>elcome To  <span className="text-cyan-300"><br/>!</span>Next
+						 <span className="text-cyan-300">W</span>elcome To  <span className="text-cyan-300"><br/>!</span>News
 						</h1>
 					
 						<p className="text-left font-normal font mb-5 flex-wrap bg-clip-text text-transparent text-2xl bg-white">
@@ -45,6 +46,7 @@ function HomePage() {
 				</div>
 			</div>
 		</Element>
+	
 	);
 }
 

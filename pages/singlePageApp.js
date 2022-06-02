@@ -1,13 +1,10 @@
 //Pages
 import HomePage from "./homePage";
 import Services from './services';
-import Customers from './customers'
 import Projects from './projects';
-import News from './news'
 // Components
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer'
 
 export default function Spa() {
   return (
@@ -22,9 +19,7 @@ export default function Spa() {
     <br/>
     <Services/>
     <Projects/>
-    <News/>
-    <Customers/>
-    <Footer/>
+
       </div>
   )
 }

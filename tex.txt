@@ -1,0 +1,2 @@
+1.a change the images  and text h1 on projects.js.
+1.b load api data into the section above news snippets.js.

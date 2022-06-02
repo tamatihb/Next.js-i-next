@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { CursorClickIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -31,8 +32,9 @@ export default function DropDown() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
+                <Link href="/PrivacyPolicy"
+                >
                 <a
-                  // href="/PrivacyPolicy"
                   className={classNames(
                     active ? ' bg-gradient-to-r from-cyan-300 to-blue-300 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
@@ -40,13 +42,15 @@ export default function DropDown() {
                 >
                   Our Privacy Policy
                 </a>
+                </Link>
               )}
             </Menu.Item>
            
             <Menu.Item>
               {({ active }) => (
+                <Link  href="/About">
                 <a
-                  // href="/About"
+                 
                   className={classNames(
                     active ?  ' bg-gradient-to-r from-cyan-300 to-blue-300 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
@@ -54,12 +58,13 @@ export default function DropDown() {
                 >
                   About Us
                 </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
+                <Link href="/Contact">
                 <a
-                  // href="/Contact"
                   className={classNames(
                     active ?  ' bg-gradient-to-r from-cyan-300 to-blue-300 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
@@ -67,6 +72,7 @@ export default function DropDown() {
                 >
                   Contact
                 </a>
+                </Link>
               )}
             </Menu.Item>
            

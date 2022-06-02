@@ -13,21 +13,21 @@ function Navbar() {
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className=" font-bold text-2xl cursor-pointer">
-									!<span className=" text-xxl text-cyan-300">NEXT</span>
+									!<span className=" text-xxl text-cyan-300">NEWS</span>
 								</h1>
                                 
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-20 flex items-baseline space-x-4 text-xl">
 									<Link
+								
 										activeClass="Home"
 										to="home"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-cyan-300 px-3 py-2 text-md
-										 "										
-									>
+										className="cursor-pointer text-cyan-300 px-3 py-2 text-md"		 >		
+																
 										Home
 									</Link>
 									<Link
@@ -50,17 +50,27 @@ function Navbar() {
 									>
 										Projects
 									</Link>
-
 									<Link
 										activeClass="Clients"
 										to="Clients"
 										smooth={true}
-										offset={50}
+										offset={0}
 										duration={500}
 										className="cursor-pointer hover:text-cyan-300   text-black px-3 py-2"
 									>
 										Clients
 									</Link>
+									<Link
+										activeClass="News"
+										to="News"
+										smooth={true}
+										offset={-70}
+										duration={500}
+										className="cursor-pointer hover:text-cyan-300 text-black  px-3 py-2"
+									>
+										News
+									</Link>
+									
 
 									
 								</div>						

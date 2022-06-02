@@ -12,16 +12,17 @@ function Projects() {
 		<Element id="work" name="work">
 			<div className="w-full my-20 pt-6  flex flex-col justify-center items-center bg-gray-100 rounded-tl-extraLarge rounded-tr-extraLarge rounded-bl-extraLarge rounded-br-extraLarge ">
 				<h1 className="text-black text-6xl font-bold text-center">
-                <span className="text-cyan-300">We</span> Do The Planing So You <br/><span className="text-cyan-300">Dont</span> Have To.
+                <span className="text-cyan-300">World</span> News <br/><span className="text-cyan-300">Reported</span> Straight to you.
 				</h1>
-                <p className="text-sm text-gray-400">We Always Have A Plan .</p>
+				<br/>
+                <p className="text-sm text-gray-400">We Keep you informed with the truth.</p>
 				<div className="md:flex sm:flex-col md:flex-row justify-center items-center gap-10 mt-10">
 					<div className="rounded w-80 h-60 shadow-xl relative">
 						<Image
 							src={Img1}
 							alt="Img1"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
@@ -30,7 +31,7 @@ function Projects() {
 							src={Img2}
 							alt="Img2"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
@@ -39,7 +40,7 @@ function Projects() {
 							src={Img3}
 							alt="Img3"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
@@ -50,7 +51,7 @@ function Projects() {
 							src={Img4}
 							alt="Img4"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
@@ -59,7 +60,7 @@ function Projects() {
 							src={Img5}
 							alt="Img5"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
@@ -68,7 +69,7 @@ function Projects() {
 							src={Img6}
 							alt="Img6"
 							layout="fill"
-							objectFit="cover"
+							objectfit="cover"
 							className="p-2 rounded cursor-pointer"
 						/>
 					</div>
