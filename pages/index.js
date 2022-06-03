@@ -7,8 +7,7 @@ import Navbar from '../components/Navbar';
 //Pages
 import HomePage from "./homePage";
 import Services from './services';
-import AllNews from './LatestNews'
-// import LatestNews from './latestNews';
+// import AllNews from './LatestNews'
 
 export default function Home() {
     return (
@@ -21,7 +20,7 @@ export default function Home() {
         <Navbar/>
         <HomePage/>
         <Services/>
-        <AllNews/>
+        {/* <AllNews/> */}
         <Customers/>
         <Footer/>
         </Fragment>
