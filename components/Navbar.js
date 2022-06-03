@@ -48,7 +48,7 @@ function Navbar() {
 										duration={500}
 										className="cursor-pointer hover:text-cyan-300 text-black px-3 py-2"
 									>
-										Projects
+										News
 									</Link>
 									<Link
 										activeClass="Clients"
@@ -60,16 +60,7 @@ function Navbar() {
 									>
 										Clients
 									</Link>
-									<Link
-										activeClass="News"
-										to="News"
-										smooth={true}
-										offset={-70}
-										duration={500}
-										className="cursor-pointer hover:text-cyan-300 text-black  px-3 py-2"
-									>
-										News
-									</Link>
+								
 									
 
 									
