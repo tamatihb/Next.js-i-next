@@ -1,10 +1,9 @@
 import CardNews from './Card';
 
 function NewsList(props) {
-  
   return (
     <div>
-      {props.loadNews.map((news) => (
+      {props.load.map((news) => (
         <CardNews
           key={ news.title}
           id={ news.title}

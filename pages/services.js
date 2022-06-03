@@ -8,7 +8,7 @@ import { Element } from "react-scroll";
 function services() {
   return (
     <Element id="services" name="services">
-      <div className="w-full my-40 h-auto flex flex-col justify-center py-4 bg-white  rounded-tr-extraLarge  pt-26 items-center">
+      <div className="w-full my-40 h-auto flex flex-col justify-center py-4 bg-white  rounded-tr-extraLarge  pt-26 items-center font-semibold italic">
         <h1 className="text-black bg- text-6xl font-bold text-center">
           <span className="text-cyan-300">Our</span> Services
         </h1>

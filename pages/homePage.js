@@ -8,13 +8,13 @@ function HomePage() {
 	return (
 		<Element id="home" name="home">
 			<div>
-				<div className="flex justify-between text-center  md:pt-24  ">
+				<div className="flex justify-between text-center   font-semibold italic ">
 					<div className="  absolute -z-10 hidden md:block">
 						<Image
 							src={TechImage}
 							alt="TechImage"
 							objectfit="cover"
-							className="-z-0 cover 	hidden md:block rounded-tl-extraLarge   "
+							className="-z-0 cover	hidden md:block rounded-tl-extraLarge   "
 						
 						/>
 					</div>
@@ -37,7 +37,7 @@ function HomePage() {
 
 
 						<a
-							href="#work"
+							href="/LatestNews"
 							className="font-semibold text-black md:mt-10  pt-5 bg-cyan-200 rounded-full w-60 h-16 text-lg hover:bg-cyan-300  "
 						>
 							Latest News
