@@ -1,7 +1,6 @@
 import {Fragment} from 'react'
 // Components
 import Head from 'next/head';
-import Customers from './customers'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar';
 //Pages
@@ -19,7 +18,6 @@ export default function Home() {
         <Navbar/>
         <HomePage/>
         <Services/>
-        <Customers/>
         <Footer/>
         </Fragment>
     )

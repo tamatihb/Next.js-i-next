@@ -9,7 +9,7 @@ function Customers() {
 	return (
 		<Element id="Clients" name="Clients">
 			<div>
-				<div className=" font-semibold italic rounded-tl-extraLarge  rounded-br-extraLarge w-full my-20 h-auto flex flex-col justify-center items-center bg-gray-100  rounded-lg py-10 ">
+				<div className=" font-semibold italic rounded-tl-extraLarge  rounded-br-extraLarge w-full my-10 h-auto flex flex-col justify-center items-center bg-gray-100  rounded-lg py-10 ">
 				
 					<div className="flex justify-between text-center  md:gap-10 gap-2">
 						

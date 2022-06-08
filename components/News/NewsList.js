@@ -2,7 +2,7 @@ import CardNews from './Card';
 
 function NewsList(props) {
   return (
-    <div>
+    <div className="grid grid-cols-3 gap-3 mx-3">
       {props.load.map((news) => (
         <CardNews
           key={ news.title}

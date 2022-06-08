@@ -21,7 +21,7 @@ function LatestNews(props) {
         <p className="text-sm text-gray-400">
           We Keep you informed with the truth.
         </p>
-        <div className="">
+        <div>
           <NewsList load={props.MultiNews} />
         </div>
       </div>
