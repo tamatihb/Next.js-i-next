@@ -22,6 +22,7 @@ export default function Spa() {
          
           <br />
           <h1 className="text-4xl">Privacy Policy</h1>
+          <br/>
           <p className="text-xl" >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio
             qu<span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-cyan-300 relative inline-block">
@@ -116,7 +117,9 @@ export default function Spa() {
         </div>
       </div>
     </div>
+    <div className="mx-10">
           <h1 className="text-4xl mt-16 ">Collecting personal information from third parties</h1>
+          <br />
           <p className="text-xl mb-6">
             We may also <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-cyan-300 relative inline-block">
                 <span className="relative text-white">itaque repudiandae.</span>
@@ -127,6 +130,7 @@ export default function Spa() {
             personal information from these third parties].
           </p>
         </div>
+      </div>
       </div>
    
       <br />
