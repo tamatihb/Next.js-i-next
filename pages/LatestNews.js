@@ -1,7 +1,7 @@
 import axios from "axios";
 import NewsList from "../components/News/NewsList";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 // Aus News
 
 function LatestNews(props) {
@@ -21,10 +21,11 @@ function LatestNews(props) {
         <p className="text-sm text-gray-400">
           We Keep you informed with the truth.
         </p>
-        <div>
+        <div className="mb-5">
           <NewsList load={props.MultiNews} />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

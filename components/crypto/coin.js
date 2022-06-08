@@ -14,14 +14,14 @@ const Coin = ({
     
     <div className="container mx-auto rounded-lg ">
      
-      <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+      <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto ">
         <div
           className="inline-block min-w-full shadow-md rounded-lg rounded-br-extraLarge  overflow-hidden">
           <table className="min-w-full leading-normal">
             <thead>
               <tr>
                 <th
-                  className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                  className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider ">
                   Cryptocurrency
                 </th>
                 <th

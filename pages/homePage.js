@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <Element id="home" name="home">
       <div>
-        <div className="pb-8 flex justify-between text-center   font-semibold italic ">
+        <div className="pb-8 flex justify-between text-center font-semibold italic ">
           <div className="  absolute -z-10 hidden md:block">
             <Image
               src={TechImage}

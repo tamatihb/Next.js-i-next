@@ -6,6 +6,8 @@ const navigation = [
   { name: "News", href: "/LatestNews", current: false },
   { name: "About", href: "/About", current: false },
   { name: "Crypto", href: "/crypto", current: false },
+  { name: "Privacy", href: "/PrivacyPolicy", current: false },
+
 ];
 
 function classNames(...classes) {
@@ -14,7 +16,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white font-semibold italic h-20">
+    <Disclosure as="nav" className="bg-white font-semibold italic h-20 shadow-lg shadow-gray-500/40">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

@@ -4,7 +4,7 @@ import { FcBbc } from "react-icons/fc";
 function CardNews(props) {
   return (
     
-<div className="shadow-lg shadow-gray-500/40">
+<div className="shadow-lg shadow-gray-500/40 rounded-2xl">
   {/* Logo */}
   <FcBbc className="text-6xl " />
   {/* Image */}

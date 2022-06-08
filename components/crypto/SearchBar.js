@@ -45,7 +45,7 @@ function SearchBar() {
       <div className='coin-SearchBar '>
         <div className='coin-search '>
           <br/>
-          <form className="Search mx-auto ml-10  sm:px-8 py-8">
+          <form className="Search mx-auto ml-10  sm:px-8 py-8 ">
             <input
               className='coin-input mx-auto  outline outline-offset-2 outline-2 rounded rounded-br-extraLarge '
               type='text'

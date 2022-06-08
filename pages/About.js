@@ -8,16 +8,19 @@ function About() {
   return (
     <Fragment>
       <Navbar />
-      <div className="mx-3.5 mt-4 pb-4 w-full pt-20 flex flex-col justify-center items-center bg-gray-100 rounded-tl-extraLarge font-semibold italic  ">
+      <div className="mx-4">
+      <div className=" mt-10 shadow-lg shadow-gray-500/40 pb-12 pb-4 w-full pt-16 pb-16 flex flex-col justify-center bg-gray-100 rounded-tl-extraLarge rounded-br-extraLarge font-semibold italic  ">
         <h1 className="text-black text-6xl font-bold text-center">
           <span className="text-cyan-300">A</span> Little Bit About Us.
         </h1>
         <br />
-        <p className="text-2xl text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          temporibus harum laboriosam vel, velit quae quibusdam itaque rem!
+        <p className="text-xl text-gray-400">
+          Lorem ip<span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-cyan-300 relative inline-block">
+                <span className="relative text-white">itaque repudiandae.</span>
+              </span>{" "}sum dolor sit amet consectetur adipisicing elit. Voluptates
+          temporbus harum laboriosam vel, velit quae quibusdam itaque rem!
           Dolor non ipsam mollitia provident eaque delectus amet suscipit modi!
-          Nobis corporis consequatur molestias reiciendis optio tenetur eos qui
+          Nobis corporis consequatu molestias reiciendis optio tenetur eos qui
           illum deserunt vel dolorum expedita impedit non beatae dicta est neque
           dignissimos, nulla suscipit. Rem quibusdam eaque vel. Lorem ipsum
           dolor sit amet consectetur adipisicing elit. Alias nam ex expedita
@@ -26,12 +29,15 @@ function About() {
           nam temporibus deleniti aliquid iure delectus nihil cupiditate
           incidunt hic ea animi at voluptatum reprehenderit suscipit! Nihil ut
           delectus saepe eum ratione, distinctio provident dolor corrupti,
-          libero ducimus cumque deserunt magni reiciendis doloremque illo
+          libero ducimus cumque deserunt <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-cyan-300 relative inline-block">
+                <span className="relative text-white">itaque repudiandae.</span>
+              </span>{" "}magni reiciendis doloremque illo
           reprehenderit quisquam autem, rem pariatur nisi in! Iusto eligendi
           quibusdam quam, velit voluptate id delectus animi modi quaerat sit
           mollitia qui inventore, perspiciatis doloribus voluptatem beatae ipsa
           ex repellat nostrum! Distinctio cupiditate delectus dicta ad saepe?
         </p>
+      </div>
       </div>
       <br />
       <Customers />

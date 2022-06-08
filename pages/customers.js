@@ -8,8 +8,8 @@ import { Element } from "react-scroll";
 function Customers() {
 	return (
 		<Element id="Clients" name="Clients">
-			<div>
-				<div className=" font-semibold italic rounded-tl-extraLarge  rounded-br-extraLarge w-full my-10 h-auto flex flex-col justify-center items-center bg-gray-100  rounded-lg py-10 ">
+			<div className="mx-4">
+				<div className=" shadow-lg shadow-gray-500/40 font-semibold italic rounded-tr-extraLarge  rounded-bl-extraLarge w-full my-10 h-auto flex flex-col justify-center items-center bg-gray-100  rounded-lg py-10 ">
 				
 					<div className="flex justify-between text-center  md:gap-10 gap-2">
 						
