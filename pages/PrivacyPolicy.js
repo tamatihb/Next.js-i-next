@@ -52,20 +52,71 @@ export default function Spa() {
           <p className="text-center text-xl">
             We collect your personal information directly from you when you:
           </p>
-          <ul className="text-center text-xl ">
-            <h3>● interact with us over the phone.</h3>
-            <li>● interact with us in person</li>
-            <li>● interact with us online;</li>
-            <li>● participate in surveys or questionnaires;</li>
-            <li>● attend a [Organisation] event;</li>
-            <li>● subscribe to our mailing list;</li>
-            <li>
-              ● apply for a position with us as an employee, contractor or
-              volunteer;
-            </li>
-          </ul>
-          <br/>
-          <h1 className="text-4xl ">Collecting personal information from third parties</h1>
+          <div>
+   
+        <div className="flex justify-items-start items-center mx-40 gap-10 mt-20">
+          <div className="flex  flex-col justify-center items-center">
+            {/* first div */}
+            <div className="flex justify-center items-center cursor-pointer">
+              <BsArrowDownRight className="w-10 h-10 bg-cyan-500 text-black m-3 p-1 shadow-xl rounded-md" />
+
+              <h2 className="text-xl text-indigo-500 font-semibold">
+              Interact with us over the phone.
+              </h2>
+            </div>
+            <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur ea soluta mollitia obcaecati, deserunt numquam!
+            </p>
+          </div>
+
+          {/* second div */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex justify-center items-center cursor-pointer">
+              <BsArrowDownRight className="w-10 h-10 bg-cyan-400 text-black m-3 p-1 shadow-xl rounded-md" />
+              <h2 className="text-xl text-indigo-500 font-semibold">
+                Interact with us online.
+              </h2>
+            </div>
+            <p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet
+              facilis rem dicta, modi sed.
+            </p>
+          </div>
+        </div>
+
+        {/* third div */}
+        <div className="flex justify-items-start items-center mx-40 gap-10 mt-20">
+          <div className="flex flex-col justify-center items-center">
+            {/* first block */}
+            <div className="flex justify-center items-center cursor-pointer">
+              <BsArrowDownRight className="w-10 h-10 bg-cyan-500 text-black m-3 p-1 shadow-xl rounded-md" />
+              <h2 className="text-xl text-indigo-500 font-semibold ">
+                Subscribe to our mailing list.
+              </h2>
+            </div>
+            <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              sapiente iste voluptatibus excepturi repudiandae delectus.
+            </p>
+          </div>
+
+          {/* second div */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex justify-center items-center cursor-pointer">
+              <BsArrowDownRight className="w-10 h-10 bg-cyan-400 text-black m-3 p-1 shadow-xl rounded-md" />
+              <h2 className="text-xl text-indigo-600 font-semibold">
+              Apply for a position with us.           </h2>
+            </div>
+            <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              libero aliquid sunt officiis, provident ipsam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+          <h1 className="text-4xl mt-16 ">Collecting personal information from third parties</h1>
           <p className="text-xl mb-6">
             We may also <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-cyan-300 relative inline-block">
                 <span className="relative text-white">itaque repudiandae.</span>
@@ -77,7 +128,7 @@ export default function Spa() {
           </p>
         </div>
       </div>
-      </div>
+   
       <br />
       <Footer />
     </div>
