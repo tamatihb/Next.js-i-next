@@ -26,6 +26,7 @@ function LatestNews(props) {
         </div>
       </div>
       <Footer/>
+
     </div>
   );
 }
