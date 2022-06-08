@@ -1,5 +1,6 @@
 import React from "react";
 import { FcBbc } from "react-icons/fc";
+import Image from 'next/image'
 
 function CardNews(props) {
   return (
@@ -14,6 +15,7 @@ function CardNews(props) {
             alt="New Image"
             className="rounded-lg  "
             objectfit="cover"
+            
           ></img>
           {/* Link to Page with information about article */}
           {/* Text Body */}
