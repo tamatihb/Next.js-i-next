@@ -12,7 +12,7 @@ function LatestNews(props) {
   return (
       <div>  
               <Navbar /> 
-      {/* <div className="w-full pt-20 flex flex-col justify-center items-center bg-gray-100 rounded-tl-extraLarge font-semibold italic  ">
+      <div className="w-full pt-20 flex flex-col justify-center items-center bg-gray-100 rounded-tl-extraLarge font-semibold italic  ">
         <h1 className="text-black text-6xl font-bold text-center">
           <span className="text-cyan-300">World</span> News <br />
           <span className="text-cyan-300">Reported</span> Straight to you.
@@ -20,12 +20,12 @@ function LatestNews(props) {
         <br />
         <p className="text-sm text-gray-400">
           We Keep you informed with the truth.
-        </p> */}
+        </p>
         <div className="">
           <NewsList load={props.MultiNews} />
         </div>
       </div>
-    // </div>
+    </div>
   );
 }
 
